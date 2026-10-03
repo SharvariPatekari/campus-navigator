@@ -1,0 +1,129 @@
+/* body { 
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f5f7fa;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 15px;
+  color: #333;
+  font-size: 24px;
+}
+
+.form {
+  margin: 15px;
+  background: white;
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#map {
+  height: 80vh;
+  width: 95%;
+  border-radius: 12px;
+  border: 2px solid black;
+  margin: 10px auto;
+}
+
+select, button {
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+} */
+
+
+
+
+
+
+
+
+/*===== Global =====*/
+body { 
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f5f7fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*===== Header =====*/
+header {
+  background: linear-gradient(135deg, #007bff, #00b894);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.tagline {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* ===== Form Section ===== */
+form-container {
+  margin: 15px;
+  background: white;
+  padding: 15px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+select, button {
+  padding: 10px 14px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  border: 1px solid black;
+}
+
+button {
+  background-color: #00b894;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #019874;
+}
+
+#map {
+  height: calc(100vh - 120px);
+  width: 100%;
+}
